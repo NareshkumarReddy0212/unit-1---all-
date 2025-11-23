@@ -1,0 +1,55 @@
+
+1. Initialize a Git Repository Locally (git init)
+➤ Steps:
+1.	Open Terminal or Git Bash
+2.	Create a project folder
+mkdir portfolio-site
+cd portfolio-site
+3.	Initialize Git:
+git init
+This creates a hidden .git folder inside the directory.
+
+2. Create a Sample HTML File
+echo "<!DOCTYPE html><html><head><title>My Portfolio</title></head><body><h1>Welcome!</h1></body></html>" > index.html
+
+3. Commit Changes (git add, git commit)
+➤ Steps:
+git add index.html
+git commit -m "Initial commit: Added basic portfolio page"
+This saves the changes to the local repository.
+
+4. Create a New Branch (git branch)
+➤ Steps:
+git branch about
+git checkout about
+Or shortcut:
+git checkout -b about
+You are now working on a separate branch named about.
+
+5. Make Changes on Branch and Commit
+Open index.html and add the following before </body>:
+<p>This is the about section.</p>
+Then:
+git add index.html
+git commit -m "Added about section"
+
+6. Merge Branch with Main (git merge)
+Switch to main branch:
+git checkout ( go to main)
+Then merge:
+git merge about
+Changes from about branch are now merged into main.
+
+7. Push to GitHub (Remote Version Control)
+➤ Steps:
+1.	Create a new repository on GitHub (e.g., portfolio-site)
+2.	Connect local repo to GitHub:
+git remote add origin https://github.com/<your-username>/portfolio-site.git
+git push -u origin main
+
+8. Clone Repository (git clone)
+You can now clone the repository on another system or folder:
+git clone https://github.com/<your-username>/portfolio-site.git
+This copies the entire project (including history and branches) to a new location.
+
+
