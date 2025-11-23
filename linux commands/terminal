@@ -1,0 +1,65 @@
+Lab Manual: Basic Linux/Unix and Git Commands
+Aim
+To practice and understand basic Linux/Unix terminal commands including file operations, navigation, and Git/GitHub commands for version control.
+Procedure
+1. Open your Linux terminal or command line interface.
+2. Try each command listed below in sequence.
+3. Observe the behavior/output of each command.
+4. Make notes on what each command does and how it could be useful in real-world tasks.
+5. Use GitHub to push code changes and practice version control.
+Expected Results
+Students should be able to navigate directories, manage files, and perform basic Git operations such as committing changes and pushing them to a remote GitHub repository.
+
+
+Basic Linux/Unix Terminal Commands
+
+1. pwd - Prints current working directory
+2. ls - Lists files and directories
+3. cd [directory] - Changes directory
+4. mkdir [dir_name] - Creates new directory
+5. rmdir [dir_name] - Deletes an empty directory
+6. touch [file_name] - Creates an empty file
+7. rm [file_name] - Deletes a file
+8. cp [source] [destination] - Copies a file or directory
+9. mv [source] [destination] - Moves or renames a file or directory
+10. cat [file_name] - Displays file contents
+11. nano [file_name] - Opens file in nano text editor
+12. echo "text" > file - Writes text into a file
+13. man [command] - Shows manual for command
+14. history - Displays command history
+15. clear - Clears the terminal screen
+16. whoami - Displays the current username
+17. chmod +x [file_name] - Makes file executable
+18. ps - Lists running processes
+19. top - Displays system resource usage
+20. df -h - Shows disk space usage
+21. du -sh [folder] - Shows folder size
+22. ifconfig or ip a - Shows IP address info
+23. ping [host] - Pings a host
+24. grep 'text' [file] - Searches for text in file
+25. find . -name "*.txt" - Finds all .txt files
+26. tar -czvf archive.tar.gz folder - Archives/compresses folder
+27. unzip archive.zip - Extracts a ZIP file
+28. exit - Closes the terminal session
+29. alias cls='clear' - Creates shortcut command
+30. uname -a - Displays system info
+
+
+Git and GitHub Commands
+
+
+31. git --version - Checks Git version
+32. git config --global user.name "Your Name" - Sets Git username
+33. git config --global user.email "you@example.com" - Sets Git email
+34. git init - Initializes Git repository
+35. git status - Shows status of repo
+36. git add filename - Stages specific file
+37. git add . - Stages all files
+38. git commit -m "message" - Commits with message
+39. git log - Shows commit history
+40. git remote add origin [URL] - Adds GitHub remote
+41. git branch - Lists branches
+42. git branch -M main - Renames current branch to main
+43. git push -u origin main - Pushes to GitHub
+44. git pull - Pulls from GitHub
+45. git clone [URL] - Clones a repository
