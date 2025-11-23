@@ -1,0 +1,31 @@
+Experiment2: Initialize a Git repository and push a static web project to GitHub
+
+
+git init
+
+git config --global user.name "Your Name"
+
+git config --global user.email "your.email@example.com"
+
+git add .
+
+git commit -m "Initial commit with static web files"
+
+Step 5: Create a New Repository on GitHub
+1)	Go to https://github.com
+2)	Click ➕ → New repository
+3)	Name it personal_portfolio
+4)	Do not initialize with README, .gitignore, or license
+5)	Click Create repository
+
+git remote add origin https://github.com/your-username/personal_portfolio.git
+
+git branch -M main
+
+git push -u origin main
+
+
+
+
+
+
