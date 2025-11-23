@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naresh Kumar Reddy - Resume</title>
+  <!-- Linking external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1 id="resume-title">Resume</h1>
+    <img src="IMG-20250622-WA0013.jpg" alt="Profile Photo">
+
+    <h1>Name: P. Naresh Kumar Reddy</h1>
+    <p><b>Email:</b> 
+      <a href="mailto:nareshkumarreddy0212@gmail.com">
+        nareshkumarreddy0212@gmail.com
+      </a>
+    </p>
+    <p><b>LinkedIn:</b> 
+      <a href="https://linkedin.com/in/naresh-kumar" target="_blank">
+        linkedin.com/in/naresh-kumar
+      </a>
+    </p>
+    <p><b>GitHub:</b> 
+      <a href="https://github.com/" target="_blank">
+        github.com/naresh-kumar
+      </a>
+    </p>
+
+    <hr>
+    <h1>Projects</h1>
+    <ul>
+      <li>Tourism website – using HTML, CSS. Idea presentation at MSME and still working on it with a team of 6 members.</li>
+      <li>The final project has been completed on building a Marketing Agency Website, issued by Saredufy Webplus Academy.</li>
+    </ul>
+
+    <hr>
+    <h1>Internship</h1>
+    <p>Currently undergoing an internship at Saredufy Webplus Academy in the domain of Frontend Development.</p>
+
+    <hr>
+    <h1>Education Qualification</h1>
+    <ul>
+      <li>Bachelor of Technology - MITS College, 2023–2027, CGPA: 8.37</li>
+      <li>Intermediate - Krishna Reddy Siddartha College, 2021-2023, Percentage: 88%</li>
+      <li>School - Viswam School, 2010-2023, Percentage: 98%</li>
+    </ul>
+
+    <hr>
+    <h1>Programming Languages</h1>
+    <ul>
+      <li>C</li>
+      <li>JAVA</li>
+    </ul>
+
+    <hr>
+    <h1>Hobbies</h1>
+    <ul>
+      <li>Listening Music</li>
+      <li>Playing Games like Cricket</li>
+    </ul>
+  </div>
+</body>
+</html>
+
+
+
+style.css:
+
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 20px;
+}
+
+div {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 18px;
+  color: #191b1e;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#resume-title {
+  text-align: center;
+  font-size: 26px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 5px 0 10px;
+}
+
+img {
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  float: right;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
